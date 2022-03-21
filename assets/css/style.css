@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Quicksand:wght@600&display=swap');
+
+* {	
+    margin: 0;	
+    padding: 0;	
+    border: none;	
+}
+
+/* General font styling throughout site */
+
+body {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 200;
+    color: black;
+}
+
+h1, h2 {
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    color: black;
+}
+
+/* logo and logo-heading styling */
+#logo-heading {
+    float: left;
+    font-size: 250%;
+    margin-left: 20px;
+}
+
+/* header navigation */
+#header-menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+#header-menu, #logo {
+    line-height: 75px;
+}
+
+#header-menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#header-menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#header-menu a:hover {
+    border-bottom: 1px solid black;
+}
+
+.active {
+    border-bottom: 1px solid black;
+}
