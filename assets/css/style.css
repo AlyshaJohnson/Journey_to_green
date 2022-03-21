@@ -13,6 +13,7 @@ body {
     font-weight: 200;
     color: black;
     background-color: green;
+    letter-spacing: 1px;
 }
 
 h1, h2 {
@@ -22,12 +23,19 @@ h1, h2 {
     color: black;
 }
 
+section {
+    width: 80%;
+    margin-left: 10%;
+    background-color: blue;
+}
+
 /* logo and logo-heading styling */
 #logo-heading {
     float: left;
     font-size: 250%;
     margin-left: 20px;
     color: #fff;
+    height: 70px;
 }
 
 /* header navigation */
@@ -35,9 +43,10 @@ h1, h2 {
     font-size: 110%;
     letter-spacing: 2px;
     color: #fff;
+    height: 70px;
 }
 
-#header-menu, #logo {
+#header-menu, #logo-heading {
     line-height: 75px;
 }
 
@@ -60,10 +69,52 @@ h1, h2 {
     border-bottom: 1px solid #fff;
 }
 
+/* newsletter footer */
+#newsletter {
+    color: #fff;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+}
+
+#newsletter > h2 {
+    line-height: 20px;
+    color: inherit;
+    padding-top: 10px;
+}
+
+#newsletter-email, #newsletter-name {
+    margin-left: 10px;
+    margin-right: 50px;
+    border: 1px solid black;
+    padding-left: 40px;
+}
+
+#newsletter-submit {
+    padding: 6px;
+    border: 2px outset black;
+    border-radius: 10px;
+    font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 100%;
+}
+
+#newsletter > a, #newsletter > p {
+    font-size: 75%;
+    font-style: italic;
+}
+
+#newsletter a {
+    color: inherit;
+}
+
+
 /* social media footer */
 #socials {
     color: #fff;
-    height: 100px;
+    height: 80px;
+    width: 100%;
     text-align: center;
 }
 

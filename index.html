@@ -32,13 +32,23 @@
             </ul>
         </nav>
     </header>
-    <div>Image</div>
-    <div>Ethos</div>
+    <section>Image</section>
+    <section>Ethos</section>
     <footer>
-        <section>
-            <div>Newsletter form</div>
-        </section>
-        <section>
+        <div  id="newsletter">
+            <h2>Sign up to our Newsletter for regular updates:</h2>
+            <br>
+            <form>
+                <label for="newsletter-name">Name:</label>
+                <input type="text" id="newsletter-name">
+                <label for="newsletter-email">Email:</label>
+                <input type="email" id="newsletter-email">
+                <input type="submit" id="newsletter-submit">
+            </form>
+            <p class="GDPR">Please read our <a href="#">GDPR notice</a> before submitting.
+            </p>
+        </div>
+        <div>
             <ul id="socials">
                 <li>
                     <a href="https://www.facebook.com/ajourneytogreenblog/" target="_blank" rel="noopener"
@@ -55,7 +65,7 @@
                         aria-label="Visit our TikTok page (opens in a new tab)"><i class="fa-brands fa-tiktok"></i></a>
                 </li>
             </ul>
-        </section>
+        </div>
     </footer>
 
     <!--font awesome script-->
