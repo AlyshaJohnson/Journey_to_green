@@ -12,6 +12,7 @@ body {
     font-family: 'Dosis', sans-serif;
     font-weight: 200;
     color: black;
+    background-color: green;
 }
 
 h1, h2 {
@@ -26,12 +27,14 @@ h1, h2 {
     float: left;
     font-size: 250%;
     margin-left: 20px;
+    color: #fff;
 }
 
 /* header navigation */
 #header-menu {
     font-size: 110%;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
+    color: #fff;
 }
 
 #header-menu, #logo {
@@ -50,9 +53,47 @@ h1, h2 {
 }
 
 #header-menu a:hover {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #fff;
 }
 
 .active {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #fff;
+}
+
+/* social media footer */
+#socials {
+    color: #fff;
+    background-color: black;
+    height: 100px;
+}
+
+#socials div {
+    background-color: blue;
+}
+
+#socials a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 150%;
+}
+
+#facebook {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+    text-align: right;
+}
+
+#tiktok {
+    padding-bottom: 30px;
+    width: 33%;
+    float: right;
+    text-align: left;
+}
+
+#instagram {
+    padding-top: 30px;
+    width: 33%;
+    margin: 0 auto;
+    text-align: center;
 }
