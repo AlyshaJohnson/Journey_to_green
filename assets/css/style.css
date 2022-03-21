@@ -63,37 +63,17 @@ h1, h2 {
 /* social media footer */
 #socials {
     color: #fff;
-    background-color: black;
     height: 100px;
-}
-
-#socials div {
-    background-color: blue;
-}
-
-#socials a {
-    text-decoration: none;
-    color: inherit;
-    font-size: 150%;
-}
-
-#facebook {
-    padding-top: 30px;
-    width: 33%;
-    float: left;
-    text-align: right;
-}
-
-#tiktok {
-    padding-bottom: 30px;
-    width: 33%;
-    float: right;
-    text-align: left;
-}
-
-#instagram {
-    padding-top: 30px;
-    width: 33%;
-    margin: 0 auto;
     text-align: center;
+}
+
+#socials > li {
+    display: inline;
+}
+
+#socials i {
+    font-size: 160%;
+    margin: 5%;
+    padding: -1%;
+    color: #fff;
 }
