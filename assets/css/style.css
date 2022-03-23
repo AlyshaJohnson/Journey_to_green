@@ -130,6 +130,17 @@ section {
     color: #EAFDFB;
 }
 
+/* homepage */
+#top-image {
+    width: 95%;
+    height: 300px;
+    margin: 2.5%;
+    opacity: 60%;
+
+}
+
+/*blog library */
+
 /* contact us form */
 
 #query-form {
