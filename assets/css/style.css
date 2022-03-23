@@ -11,7 +11,7 @@
 body {
     font-family: 'Dosis', sans-serif;
     font-weight: 200;
-    color: #00aa9c;
+    color: #13443e;
     background-color: #20726B;
     letter-spacing: 1px;
 }
@@ -26,7 +26,8 @@ h1, h2 {
 section {
     width: 80%;
     margin-left: 10%;
-    background-color: #EAFDFB;
+    background-color: #f3eada;
+    border-radius: 10px;
 }
 
 /* logo and logo-heading styling */
@@ -127,4 +128,44 @@ section {
     margin: 5%;
     padding: -1%;
     color: #EAFDFB;
+}
+
+/* contact us form */
+
+#query-form {
+    margin-left: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#query-form p {
+    font-size: 150%;
+    padding-bottom: 20px;
+}
+
+#query-form label {
+    padding-right: 15px;
+    font-size: 110%;
+}
+
+#query-form input {
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+
+#query-form #query-form-name, #query-form #query-form-email {
+    padding-right: 100px;
+}
+
+#query-form textarea {
+    font-family: 'Dosis', sans-serif;
+    width: 95%;
+}
+
+#query-form #query-submit {
+    padding: 5px;
+    margin-left: 50%;
+    border: 1px ridge #13443e;
+    border-radius: 5px;
+    background-color: #f3eada;
 }

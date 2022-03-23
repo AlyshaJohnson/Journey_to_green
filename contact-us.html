@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,6 +12,7 @@
 
     <title>Contact Us</title>
 </head>
+
 <body>
     <header>
         <a href="index.html">
@@ -31,12 +33,41 @@
         </nav>
     </header>
     <section>
-        <div>Form</div>
-        <div>GDPR notice</div>
-        <div>Submit button</div>
+        <div id="query-form">
+            <p>We appreciate any queries, concerns and feedback you have for us - even a general ‘hello’. We aim to
+                respond via email between 1-3 working days.</p>
+            <form action="#">
+                <label for="query-form-name">Name: *</label>
+                <input type="text" id="query-form-name" name="name" required>
+                <label for="query-form-email">Email: *</label>
+                <input type="email" id="query-form-email" name="email" required>
+                <br>
+                <label list="query-type">Type of Query: *</label>
+                <input type="text" list="query-type-list" id="query-type" name="query-type" required>
+                <datalist id="query-type-list">
+                    <option value="Feedback"></option>
+                    <option value="Question"></option>
+                    <option value="Recommendation"></option>
+                    <option value="Meet Up"></option>
+                    <option value="Other"></option>
+                </datalist>
+                <br>
+                <label for="query-text">Please share more details about your query: *</label>
+                <br>
+                <textarea name="query-text" id="query-text" cols="100%" rows="10" required>Please type here ...</textarea>
+                <br>
+                <input type="checkbox" id="select-newsletter">
+                <label for="select-newsletter">Sign up to Newsletter for regular updates.</label>
+                <br>
+                <input type="checkbox" id="select-gdpr" required>
+                <label for="select-gdpr">I have read and understood the <a href="#">GDPR notice</a>. *</label>
+                <br>
+                <input type="submit" value="SUBMIT" id="query-submit">
+            </form>
+        </div>
     </section>
     <footer>
-        <div  id="newsletter">
+        <div id="newsletter">
             <h2>Sign up to our Newsletter for regular updates:</h2>
             <br>
             <form>
@@ -72,4 +103,5 @@
     <!--font awesome script-->
     <script src="https://kit.fontawesome.com/b04fbaf5c5.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
