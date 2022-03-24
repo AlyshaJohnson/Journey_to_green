@@ -28,6 +28,7 @@ section {
     margin-left: 10%;
     background-color: #f3eada;
     border-radius: 10px;
+    margin-bottom: 1%;
 }
 
 /* logo and logo-heading styling */
@@ -110,7 +111,6 @@ section {
     color: inherit;
 }
 
-
 /* social media footer */
 #socials {
     color: #EAFDFB;
@@ -132,11 +132,24 @@ section {
 
 /* homepage */
 #top-image {
+    height: 250px;
     width: 95%;
-    height: 300px;
-    margin: 2.5%;
-    opacity: 60%;
+    margin-left: 2.5%;
+    background: url('../assets/images/top-img.jpeg') #20726B no-repeat;
+    color: #20726B;
+}
 
+.home-page {
+    width: 40%;
+    padding: 0.5%;
+}
+
+.home-page h2, .home-page p {
+    color: #13443e;
+}
+
+#inspiration {
+    margin-left: 50%;
 }
 
 /*blog library */
