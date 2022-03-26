@@ -137,8 +137,10 @@ section {
     height: 250px;
     width: 95%;
     margin-left: 2.5%;
-    background: url('../assets/images/top-img.jpeg') #20726B no-repeat;
-    color: #20726B;
+    background: url('/assets/images/top-img.jpg') black top center / 100% auto no-repeat;
+    opacity: 70%;
+    position: absolute;
+    z-index: -1;
 }
 
 .home-page {
@@ -147,6 +149,10 @@ section {
 
 .home-page h2, .home-page p {
     color: #13443e;
+}
+
+#about {
+    margin-top: 10%;
 }
 
 #inspiration {
