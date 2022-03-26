@@ -137,7 +137,7 @@ section {
     height: 250px;
     width: 95%;
     margin-left: 2.5%;
-    background: url('/assets/images/top-img.jpg') #20726B top center / 100% auto no-repeat;
+    background: url('../images/top-img.jpg') #20726B top center / 100% auto no-repeat;
     opacity: 70%;
     position: absolute;
     z-index: -1;
