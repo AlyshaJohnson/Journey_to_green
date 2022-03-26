@@ -29,6 +29,7 @@ section {
     background-color: #f3eada;
     border-radius: 10px;
     margin-bottom: 1%;
+    padding: 0.5%;
 }
 
 /* logo and logo-heading styling */
@@ -117,6 +118,7 @@ section {
     height: 80px;
     width: 100%;
     text-align: center;
+    margin-bottom: 2%;
 }
 
 #socials > li {
@@ -141,7 +143,6 @@ section {
 
 .home-page {
     width: 40%;
-    padding: 0.5%;
 }
 
 .home-page h2, .home-page p {
@@ -153,6 +154,15 @@ section {
 }
 
 /*blog library */
+.blog-post h2, .blog-post p {
+    color: #13443e;
+}
+
+.blog-separator {
+    text-align: center;
+    font-size: 180%;
+    margin-bottom: 1%;
+}
 
 /* contact us form */
 
