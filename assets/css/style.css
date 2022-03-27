@@ -160,6 +160,10 @@ section {
 }
 
 /*blog library */
+#most-recent {
+    margin-top: 10%;
+}
+
 .blog-post h2, .blog-post p {
     color: #13443e;
 }
@@ -173,6 +177,10 @@ section {
 /* contact us form */
 
 #query-form {
+    margin-top: 10%;
+}
+
+#query-form div {
     margin-left: 25px;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -204,8 +212,13 @@ section {
 
 #query-form #query-submit {
     padding: 5px;
-    margin-left: 50%;
+    margin-left: 45%;
     border: 1px ridge #13443e;
     border-radius: 5px;
     background-color: #f3eada;
+}
+
+/* newsletter and contact us form submittals */
+.thanks {
+    margin-top: 10%;
 }
