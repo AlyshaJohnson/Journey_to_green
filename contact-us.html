@@ -36,7 +36,7 @@
         <div id="query-form">
             <p>We appreciate any queries, concerns and feedback you have for us - even a general ‘hello’. We aim to
                 respond via email between 1-3 working days.</p>
-            <form action="#">
+            <form action="contact-submit.html" method="get">
                 <label for="query-form-name">Name: *</label>
                 <input type="text" id="query-form-name" name="name" required>
                 <label for="query-form-email">Email: *</label>
@@ -54,7 +54,8 @@
                 <br>
                 <label for="query-text">Please share more details about your query: *</label>
                 <br>
-                <textarea name="query-text" id="query-text" cols="100%" rows="10" required>Please type here ...</textarea>
+                <textarea name="query-text" id="query-text" cols="100%" rows="10"
+                    required>Please type here ...</textarea>
                 <br>
                 <input type="checkbox" id="select-newsletter">
                 <label for="select-newsletter">Sign up to Newsletter for regular updates.</label>
@@ -70,11 +71,11 @@
         <div id="newsletter">
             <h2>Sign up to our Newsletter for regular updates:</h2>
             <br>
-            <form action="#">
+            <form action="/newsletter-data.html" method="get">
                 <label for="newsletter-name">Name:</label>
-                <input type="text" id="newsletter-name">
+                <input type="text" id="newsletter-name" name="newsletter-name">
                 <label for="newsletter-email">Email:</label>
-                <input type="email" id="newsletter-email">
+                <input type="email" id="newsletter-email" name="newsletter-email">
                 <input type="submit" id="newsletter-submit">
             </form>
             <p class="GDPR">Please read our <a href="#">GDPR notice</a> before submitting.
