@@ -75,7 +75,7 @@ section {
 /* newsletter footer */
 #newsletter {
     color: #EAFDFB;
-    height: 100px;
+    height: auto;
     width: 100%;
     text-align: center;
 }
@@ -110,6 +110,10 @@ section {
 
 #newsletter a {
     color: inherit;
+}
+
+#inline {
+    display: none;
 }
 
 /* social media footer */
@@ -256,6 +260,9 @@ section {
     }
     
     /* footer */
+    #inline {
+        display: inline;
+    }
 
     /* homepage content */
     #about {
