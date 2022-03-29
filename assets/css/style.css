@@ -222,3 +222,43 @@ section {
 .thanks {
     margin-top: 10%;
 }
+
+/* media queries */
+
+/* for medium screen sizes 800px wide and down */
+@media screen and (max-width: 800px) {
+    /* homepage content */
+    .home-page {
+        width: 90%;
+        margin: 1% auto;
+    }
+
+    #inspiration {
+        margin: 1% auto;
+    }
+}
+
+/* for medium screen sizes 800px wide and down */
+@media screen and (max-width: 800px) {
+    /* header */
+    #logo-heading {
+        font-size: 150%;
+    }
+
+    #header-menu {
+        margin-left: 30px;
+        margin-bottom: 1%;
+        line-height: 25px;
+    }
+
+    #top-image {
+        margin-top: 7%;
+    }
+    
+    /* footer */
+
+    /* homepage content */
+    #about {
+        margin-top: 15%;
+    }
+}
