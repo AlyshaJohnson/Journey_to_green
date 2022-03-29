@@ -238,8 +238,8 @@ section {
     }
 }
 
-/* for medium screen sizes 800px wide and down */
-@media screen and (max-width: 800px) {
+/* for medium screen sizes 375px wide and down */
+@media screen and (max-width: 375px) {
     /* header */
     #logo-heading {
         font-size: 150%;
