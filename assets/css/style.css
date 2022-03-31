@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Quicksand:wght@600&display=swap');
 
-* {	
-    margin: 0;	
-    padding: 0;	
-    border: none;	
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
 }
 
 /* General font styling throughout site */
@@ -16,7 +16,8 @@ body {
     letter-spacing: 1px;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: 'Quicksand', sans-serif;
     letter-spacing: 2px;
     text-transform: capitalize;
@@ -25,11 +26,10 @@ h1, h2 {
 
 section {
     width: 80%;
-    margin-left: 10%;
-    background-color: #f3eada;
-    border-radius: 10px;
-    margin-bottom: 1%;
-    padding: 0.5%;
+    margin: 20px auto;
+    background-color: inherit;
+    display: flex;
+    flex-direction: column;
 }
 
 /* logo and logo-heading styling */
@@ -49,7 +49,8 @@ section {
     height: 70px;
 }
 
-#header-menu, #logo-heading {
+#header-menu,
+#logo-heading {
     line-height: 75px;
 }
 
@@ -81,13 +82,14 @@ section {
     display: block;
 }
 
-#newsletter > h2 {
+#newsletter>h2 {
     line-height: 20px;
     color: inherit;
     padding-top: 10px;
 }
 
-#newsletter-email, #newsletter-name {
+#newsletter-email,
+#newsletter-name {
     margin-left: 10px;
     margin-right: 50px;
     border: 1px solid #13443e;
@@ -104,7 +106,8 @@ section {
     font-size: 100%;
 }
 
-#newsletter > a, #newsletter > p {
+#newsletter>a,
+#newsletter>p {
     font-size: 75%;
     font-style: italic;
 }
@@ -127,7 +130,7 @@ section {
     display: block;
 }
 
-#socials > li {
+#socials>li {
     display: inline;
 }
 
@@ -142,35 +145,38 @@ section {
 #top-image {
     height: 250px;
     width: 95%;
-    margin-left: 2.5%;
+    margin: 0 auto;
     background: url('../images/top-img.jpg') #20726B top center / 100% auto no-repeat;
-    opacity: 70%;
-    position: absolute;
-    z-index: -1;
+    opacity: 90%;
 }
 
 .home-page {
-    width: 40%;
+    width: 45%;
+    background: #f3eada;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
 }
 
-.home-page h2, .home-page p {
+.home-page h2,
+.home-page p {
     color: #13443e;
 }
 
-#about {
-    margin-top: 10%;
-}
-
 #inspiration {
-    margin-left: 50%;
+    align-self: flex-end;
 }
 
 /*blog library */
-#most-recent {
-    margin-top: 10%;
+.blog-post {
+    background: #f3eada;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
 }
 
-.blog-post h2, .blog-post p {
+.blog-post h2,
+.blog-post p {
     color: #13443e;
 }
 
@@ -183,13 +189,10 @@ section {
 /* contact us form */
 
 #query-form {
-    margin-top: 10%;
-}
-
-#query-form div {
-    margin-left: 25px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    background: #f3eada;
+    border-radius: 20px;
+    margin: 20px auto;
+    padding: 20px;
 }
 
 #query-form p {
@@ -198,7 +201,6 @@ section {
 }
 
 #query-form label {
-    padding-right: 15px;
     font-size: 110%;
 }
 
@@ -207,7 +209,8 @@ section {
     margin-bottom: 20px;
 }
 
-#query-form #query-form-name, #query-form #query-form-email {
+#query-form #query-form-name,
+#query-form #query-form-email {
     padding-right: 100px;
 }
 
@@ -230,9 +233,9 @@ section {
 }
 
 /* media queries */
-
 /* for medium screen sizes 800px wide and down */
 @media screen and (max-width: 800px) {
+
     /* homepage content */
     .home-page {
         width: 90%;
@@ -246,6 +249,7 @@ section {
 
 /* for medium screen sizes 375px wide and down */
 @media screen and (max-width: 375px) {
+
     /* header */
     #logo-heading {
         font-size: 150%;
@@ -260,7 +264,7 @@ section {
     #top-image {
         margin-top: 7%;
     }
-    
+
     /* footer */
     #inline {
         display: inline;
