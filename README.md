@@ -60,6 +60,37 @@ When the structure of the app, information and features had been determined, a w
 - Dosis is used for all other text elements including paragraphs, button labels, lists, etc. The fallback font is sans serif.
 - Both fonts are from Google Fonts.
 
+## 2. Technologies used
+
+Several technologies were used to aid the project:
+
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+    - Used as the basic building block for the project and to structure the content.
+- [CSS](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics)
+    - Used to style all the web content across the project. 
+- [Google Fonts](https://fonts.google.com/)
+    - Used to obtain the fonts in website
+- [Font Awesome](https://fontawesome.com/)
+    - Used to obtain the icons used throughout website.
+- [GitHub](https://github.com/)
+    - Used to store code for the project after being pushed.
+- [Git](https://git-scm.com/)
+    - Used for version control by utilising the Gitpod terminal to commit to Git and Push to GitHub.
+- [Gitpod](https://www.gitpod.io/)
+    - Used as the development environment.
+- [Balsamiq](https://balsamiq.com/)
+    - Used to create the wireframes for the project.
+- [Colormind](http://colormind.io/)
+    - Used to determine colour palette throughout website.
+- [Tiny.png](https://tinypng.com/)
+    - Used to compress my images so that the page would load faster.
+- [Techsini](http://techsini.com/multi-mockup/index.php)
+    - Used to generate multi-device mockup.
+- [Freeformatter CSS Beautify](https://www.freeformatter.com/css-beautifier.html)
+    - Used to accurately format CSS code.
+- [Freeformatter HTML Formatter](https://www.freeformatter.com/html-formatter.html)
+    - Used to accurately format HTML code.
+
 ## 3. Features
 
 ### 3.1 Existing Features
