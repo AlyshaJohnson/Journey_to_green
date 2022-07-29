@@ -1,7 +1,9 @@
 # Title
 Purpose:
+
 Aim:
-![Responsive Mockup](<directory to image>)
+
+![Responsive Mockup](./assets/images/readme/responsive-mockup.jpeg)
 
 ## 1. Design and Development
 
@@ -19,8 +21,8 @@ Research was conducted …
 
 From the research and interviews conducted with the target audience and stakeholders, user stories were created to determine the flow of the app. The focus was put on the following user stories:
 
-![User Stories 1 - 3](<insert image location>)
-![User Stories 4 - 5](<insert image location>)
+![User Stories 1 - 3](./assets/images/readme/user_story_1_2_3.jpeg/)
+![User Stories 4 - 5](./assets/images/readme/user_story_4_5.jpeg/)
 
 ### 1.3 Structure
 
@@ -39,13 +41,13 @@ From the user stories, content, data, features and functionality can be determin
 
 When the structure of the app, information and features had been determined, a wireframe for each view could be created:
 
-<insert view of app/website>
+![]()
 
 ### 1.5 Surface
 
 **Colour Palette**
 
-![Colour Palette](./assets/images/Readme-color.jpeg)
+![Colour Palette](./assets/images/readme/readme-color.jpeg)
 
 - The website's primary colours are (from left to right) #13443E, #EFEFEF, #F4D1AF and #E86E4C as seen in the picture above. They were derived using the online tool [colormind](http://colormind.io/), to make sure they complement and contrast. The colors are all nuances of green or orange, to mirror nature and enhance the connection with the being green.
 - #13443E is used for headlines and text throughtout the quiz, unless a hyperlink, and as a border colour to emphasise buttons or sections of text. On hover and selection, all buttons turn the colour #13443E to show they are active. It is also used, in conjunction with an opacity of 0.5, as an overlay when the instructions pop-up is active.
@@ -58,22 +60,22 @@ When the structure of the app, information and features had been determined, a w
 - Dosis is used for all other text elements including paragraphs, button labels, lists, etc. The fallback font is sans serif.
 - Both fonts are from Google Fonts.
 
-## 2. Features
+## 3. Features
 
-### 2.1 Existing Features
+### 3.1 Existing Features
 
-The features deployed for this quiz are as follows:
+The features deployed for this website are as follows:
 
 <insert feature descriptions and images>
 
-### 2.2 Future Features
+### 3.2 Future Features
 
 In addition to the features deployed, some features that could be deployed in a future release are:
 - <list future features>
 
-## 3. Testing
+## 4. Testing
 
-### 3.1 Initial Developer Testing
+### 4.1 Initial Developer Testing
 
 <introduce developer testing>
 
@@ -90,7 +92,7 @@ The user experience is consistent on Chrome, Firefox and Safari. The instruction
 
 Responsive design is important, CSS code had to be amended and adjusted to make sure the app could work on a number of devices. There were a number of user experience bugs that were produced when testing. These have now been fixed in the code.
 
-### 3.2 Validator Testing
+### 4.2 Validator Testing
 
 Using tools such as W3C validator, Jigsaw and Lighthouse gives visibility of any code, scripts or elements that are causing any errors. The results for the site are as follows:
 
@@ -100,12 +102,6 @@ Using tools such as W3C validator, Jigsaw and Lighthouse gives visibility of any
 **CSS**
 - <insert report number> errors were found when passing through the official [(Jigsaw) validator](<insert link to report>)
 
-**JS**
-- [JSHint](https://jshint.com/) was used to check for errors in the JS code.
-- For script.js, there were <insert report number> errors and <insert report number> warnings.
-- For instructions.js, there were <insert report number> errors and <insert report number> warnings.
-<insert any methods used to reduce number of errors and warnings>
-
 **Performance**
 - Results can be seen through the official [Lighthouse](<insert link to report>) report.
 
@@ -114,8 +110,8 @@ As part of the performance test through Lighthouse, some changes were made:
 - The cache policy was amended to increase the length of number of seconds the browser should cache the resource.
 - The image file sizes needed to be compressed so reduce the impact on performance. This was successfully done using [tinyPNG](https://tinypng.com/).
 
-### 3.3 User Testing
-This app has been tested by a small group of 10 users in which some feedback was captured in the design and some errors in functionality and spelling were corrected.
+### 4.3 User Testing
+This app has been tested by a small group of 5 users in which some feedback was captured in the design and some errors in functionality and spelling were corrected.
 
 UI improvements made:
 - <list any improvements to UI that were made here>
@@ -123,24 +119,46 @@ UI improvements made:
 Errors / bug fixes:
 - <list errors/bugs that were found, what the problem was and how they were fixed>
 
-### 3.4 Unfixed Bugs
+### 4.4 Unfixed Bugs
 
 - <list unfixed bugs here>
 
-## 4. Deployment
+## 5. Deployment
 
-The ‘<insert website name>’ was deployed to GitHub pages. The steps to deploy are as follows:
-- In the GitHub repository, navigate to the Settings tab
-- From the source section drop-down menu, select the Master Branch
-- Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+This website was deployed using GitPages and following the below steps:
 
-The ‘<insert app name>’ was deployed with the help of the Heroku app
+GitHub pages deployment
+1. Log in to GitHub
+2. In the Repository section, select the project repository that you want to deploy
+3. In the menu located at the top of this section, click 'Settings'
+4. Select 'Pages' on the left-hand menu - this is around halfway down
+5. In the source section, select branch 'Master' and save
+6. The page is then given a site URL which will be seen above the source section, it will look like the following:
 
-The live link can be found here - <insert link>
+![](./assets/images/readme/github_deployment.jpeg/)
 
-## 5 Credits
+Please note it can take a while for this link to become fully active.
 
-### 5.1 Content
+*Forking the GitHub Repository*
+
+To make changes to this repository without affecting it, a copy can be made by 'Forking' it. This ensures the original repository remains unchanged.
+1. Find the relevant GitHub repository
+2. In the top right corner of the page, click the Fork button (under account)
+3. The repository has now been 'Forked' and you have a copy to work on
+
+*Cloning the GitHub Repository*
+
+Cloning a repository will allow a local version of the repository will be downloaded so can be worked on. Cloning is also a great way to backup work.
+1. Find the relevant GitHub repository
+2. Press the arrow on the Code button
+3. Copy the link that is shown in the drop-down
+4. Now open Gitpod & select the directory location
+5. In the terminal type 'git clone' & then paste the link copied from GitHub
+6. Press enter and a local clone will be created.
+
+## 6 Credits
+
+### 6.1 Content
 
 Logos and Fonts:
 - The fonts were taken from [GoogleFonts](https://fonts.google.com/)
@@ -151,7 +169,7 @@ Tutorials and support:
 - <insert list of tutorials followed>
 - The many people who 'beta tested' the quiz app.
 
-### 5.2 Media
+### 6.2 Media
 
 Any photos used throughout the app are stock imagery from the following services:
 - [unsplash](https://unsplash.com/)
@@ -160,9 +178,9 @@ Any photos used throughout the app are stock imagery from the following services
 
 <insert any other media used throughout the app/site here>
 
-### 5.3 Research
+### 6.3 Research
 
 As mentioned in the design section, competitor research was conducted. These are credited below:
 - <insert list of research links>
 
-### 5.4 Special Thanks
+### 6.4 Special Thanks
