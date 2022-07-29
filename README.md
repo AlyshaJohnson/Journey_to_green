@@ -1,7 +1,6 @@
 # Title
-Purpose:
 
-Aim:
+The purpose of the website is to provide the user a means to read and understand methods of how to become more green, environmental and sustainable. This is done through a series of informational blog posts.
 
 ![Responsive Mockup](./assets/images/readme/responsive-mockup.jpeg)
 
@@ -11,49 +10,89 @@ For the design of this website, the 5 pillars of User Experience Design (UXD) we
 
 ### 1.1 Strategy
 
-The target user audience…
+The target user audience is for any adult / teenager that wants to read blog posts on how to be more green and environmental, however a wider scope could be considered.
 
-Interviews and workshops with users and stakeholders were conducted to understand their requirements and perspectives.
+Interviews and workshops with users and stakeholders were conducted to understand their requirements and perspectives for the quiz.
 
-Research was conducted …
+Research was conducted on similar websites to understand how they work; the presentation of the blog posts, from a format and an information architecture point of view; and most importantly how the user would feel moving through the website. 
 
 ### 1.2 Scope
 
 From the research and interviews conducted with the target audience and stakeholders, user stories were created to determine the flow of the app. The focus was put on the following user stories:
 
-![User Stories 1 - 3](./assets/images/readme/user_story_1_2_3.jpeg/)
-![User Stories 4 - 5](./assets/images/readme/user_story_4_5.jpeg/)
+![User Stories 1 - 3](./assets/images/readme/user_story_1_2_3.jpeg)
+![User Stories 4 - 6](./assets/images/readme/user_story_4_5_6.jpeg)
+
+The user stories were prioritised and it was concluded that stories 1, 2, 4 and 6 were taken forward into the scope and stories 3 and 5 were added as additional features to deploy in a future release. User story 1 was adapted and made simpler with functionality to just view a series of blog posts, search, filter and tagging will come in a later release.
 
 ### 1.3 Structure
 
 From the user stories, content, data, features and functionality can be determined.
 
-**For the content:**
+**Pages:**
+- Homepage
+    - Call to action
+    - Ethos / Introduction
+- Blog Library
+    - Blog post
+- Contact Us
+    - Form 
+    - Submit button
+    - GDPR notice and checkbox 
 
+- Consistent across all pages:
+    - Header
+        - Logo
+        - Navigation between pages
+    - Footer
+        - Newsletter sign up
+        - 3 x social media icons:
+            - Facebook
+            - Instagram
+            - Twitter
 
 **For the data:**
-
-
-**For the features / functionality:**
-
+- Ethos / Introduction
+    - Logos / Icons
+    - Website description
+    - Ethos description
+- Two blog posts
+    - Title
+    - Content
+    - Media
+- Contact us form:
+    - Name
+    - Email
+    - Query Type drop down list
+    - Query
+- Newletter sign up form:
+    - Name
+    - Email
+    - GDPR notice and checkbox
+    - Submit button
 
 ### 1.4 Skeleton
 
-When the structure of the app, information and features had been determined, a wireframe for each view could be created:
+When the structure of the webpage, information and features had been determined, a wireframe for each view could be created:
 
-![]()
+![Homepage](./assets/images/readme/wireframe_index.jpeg)
+
+![Blog page](./assets/images/readme/wireframe_blog.jpeg)
+
+![Contact page](./assets/images/readme/wireframe_contact.jpeg)
 
 ### 1.5 Surface
 
 **Colour Palette**
 
-![Colour Palette](./assets/images/readme/readme-color.jpeg)
+![Colour Palette](./assets/images/readme/colour_palette.jpeg)
 
-- The website's primary colours are (from left to right) #13443E, #EFEFEF, #F4D1AF and #E86E4C as seen in the picture above. They were derived using the online tool [colormind](http://colormind.io/), to make sure they complement and contrast. The colors are all nuances of green or orange, to mirror nature and enhance the connection with the being green.
-- #13443E is used for headlines and text throughtout the quiz, unless a hyperlink, and as a border colour to emphasise buttons or sections of text. On hover and selection, all buttons turn the colour #13443E to show they are active. It is also used, in conjunction with an opacity of 0.5, as an overlay when the instructions pop-up is active.
-- #EFEFEF is used as the main background colour for the webpage, the instructions pop up and on buttons. On selection or hover on buttons, the text is changed to #EFEFEF to contrast with it's background.
-- #F4D1AF is used as a contrasting background color for the question and results sections.
-- #E86E4C is used minimally to highlight links away from the quiz. It is a brighter colour to contrast with the green.
+- The website's primary colours are (from left to right) #20726B, #13443E, #E4E4E0, #F4D1AF and #E86E4C as seen in the picture above. They were derived using the online tool [colormind](http://colormind.io/), to make sure they complement and contrast. The colors are all nuances of green or orange, to mirror nature and enhance the connection with the being green.
+- #20726B is used for the background colour on the header and footer.
+- #13443E is used for headlines and text throughtout the website, unless a hyperlink, and as a border colour to emphasise buttons and input fields.
+- #E4E4E0 is used as the header footer text and icon colour to contrast with the background colour. It is also used as the main background colour for the webpage.
+- #F4D1AF is used as a contrasting background colour for any text boxes on the page, for example blog posts, contact us form, about the blog, etc.
+- #E86E4C is used minimally to highlight links in text. It is a brighter colour to contrast with the green.
 
 **Typography**
 - Quicksand is used for headings and header elements. The fallback font is sans serif.
@@ -97,18 +136,40 @@ Several technologies were used to aid the project:
 
 The features deployed for this website are as follows:
 
-<insert feature descriptions and images>
+**Consistent Header**
+
+
+**Newsletter Sign Up**
+
+
+**Consistent Footer**
+
+
+**Blog Library**
+
+
+**Contact Us Form**
+
 
 ### 3.2 Future Features
 
 In addition to the features deployed, some features that could be deployed in a future release are:
-- <list future features>
+- comments / likes on blogs
+- create new blog post
+- searching for blog content
+- tagging blog content to help filter / search for specific content
 
 ## 4. Testing
 
 ### 4.1 Initial Developer Testing
 
-<introduce developer testing>
+As the project was developed and coded, developer testing was conducted to reduce the impact of bugs and errors in the code. This testing consisted of general debugging of written code based off gitpod IDE recommendations; running through input validator testing scenarios to check for input errors; and testing on different browsers.
+
+**General Debugging**
+
+**Input Validator Testing**
+
+**Browser / Device testing**
 
 The development of this app was conducted on Google Chrome, therefore extensive testing was conducted on this browser. This was used as a benchmark against Firefox and Safari.
 
@@ -117,7 +178,6 @@ The elements of testing conducted on each browser are:
 - User Experience - what does the quiz look like; is the flow through the quiz the same; are all elements where they are expected?
 - Functionality - do the buttons work as expected; does the question counter count?
 - Performance - how responsive is the site?
-- Other - this includes spelling and grammatical errors.
 
 The user experience is consistent on Chrome, Firefox and Safari. The instruction videos in Safari do not load - this bug has been captured.
 
