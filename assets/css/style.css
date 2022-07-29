@@ -20,7 +20,7 @@ h1, h2 {
     font-family: 'Quicksand', sans-serif;
     letter-spacing: 2px;
     text-transform: capitalize;
-    color: #EAFDFB;
+    color: #e4e4e0;
 }
 
 section {
@@ -41,7 +41,7 @@ body > header , body > footer {
     float: left;
     font-size: 250%;
     margin-left: 20px;
-    color: #EAFDFB;
+    color: #e4e4e0;
     height: 70px;
 }
 
@@ -49,7 +49,7 @@ body > header , body > footer {
 #header-menu {
     font-size: 110%;
     letter-spacing: 2px;
-    color: #EAFDFB;
+    color: #e4e4e0;
     height: 70px;
 }
 
@@ -70,16 +70,16 @@ body > header , body > footer {
 }
 
 #header-menu a:hover {
-    border-bottom: 1px solid #EAFDFB;
+    border-bottom: 1px solid #e4e4e0;
 }
 
 .active {
-    border-bottom: 1px solid #EAFDFB;
+    border-bottom: 1px solid #e4e4e0;
 }
 
 /* newsletter footer */
 #newsletter {
-    color: #EAFDFB;
+    color: #e4e4e0;
     height: auto;
     width: 100%;
     text-align: center;
@@ -126,7 +126,7 @@ body > header , body > footer {
 
 /* social media footer */
 #socials {
-    color: #EAFDFB;
+    color: #e4e4e0;
     height: 80px;
     width: 100%;
     text-align: center;
@@ -142,7 +142,7 @@ body > header , body > footer {
     font-size: 160%;
     margin: 5%;
     padding: -1%;
-    color: #EAFDFB;
+    color: #e4e4e0;
 }
 
 /* homepage */

@@ -1,4 +1,4 @@
-# Title
+# A Journey to Green
 
 The purpose of the website is to provide the user a means to read and understand methods of how to become more green, environmental and sustainable. This is done through a series of informational blog posts.
 
