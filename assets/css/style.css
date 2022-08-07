@@ -229,6 +229,11 @@ table>th {
 	padding: 20px;
 }
 
+#query-form h2 {
+    color: #13443e;
+    text-align: center;
+}
+
 #query-form p {
 	font-size: 1.5em;
 	padding-bottom: 20px;
@@ -274,6 +279,11 @@ table>th {
 	border-radius: 20px;
 	margin: 20px auto;
 	padding: 20px;
+}
+
+.thanks h2 {
+    color: #13443e;
+    text-align: center;
 }
 
 /* media queries */

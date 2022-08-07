@@ -3,7 +3,7 @@
    <head>
       <meta charset="UTF-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta Cache-Control: max-age=604800>
+      <meta http-equiv="Cache-control" content="public, max-age=604800">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="description" content="A blog to help and guide on being mroe green">
       <meta name="keywords" content="green, environment, how-to, blog, journey to green, contact us">
@@ -32,6 +32,7 @@
       <div id="top-image"></div>
       <section >
          <div id="query-form">
+            <h2>Contact Us</h2>
             <p>We appreciate any queries, concerns and feedback you have for us - even a general ‘hello’. We aim to
                respond via email between 1-3 working days.
             </p>
@@ -45,7 +46,7 @@
                   <input type="email" id="query-form-email" name="email" required>
                </div>
                <div>
-                  <label list="query-type">Type of Query: *</label>
+                  <label for="query-type">Type of Query: *</label>
                   <input type="text" list="query-type-list" id="query-type" name="query-type" required>
                   <datalist id="query-type-list">
                      <option value="Feedback"></option>
@@ -57,7 +58,7 @@
                </div>
                <label for="query-text">Please share more details about your query: *</label>
                <br>
-               <textarea name="query-text" id="query-text" cols="100%" rows="10"
+               <textarea name="query-text" id="query-text" cols="100" rows="10"
                   required placeholder="Please type here ..."></textarea>
                <br>
                <input type="checkbox" id="select-newsletter">
@@ -75,11 +76,11 @@
             <h2>Sign up to our Newsletter for regular updates:</h2>
             <br>
             <form action="newsletter-submit.html" method="get">
-               <label for="newsletter-name" required>Name: *</label>
-               <input type="text" id="newsletter-name" name="newsletter-name">
+               <label for="newsletter-name">Name: *</label>
+               <input type="text" id="newsletter-name" name="newsletter-name" required>
                <br id="inline">
-               <label for="newsletter-email" required>Email: *</label>
-               <input type="email" id="newsletter-email" name="newsletter-email">
+               <label for="newsletter-email">Email: *</label>
+               <input type="email" id="newsletter-email" name="newsletter-email" required>
                <br>
                <input type="checkbox" id="gdpr-newsletter" class="GDPR" required>
                <label for="gdpr-newsletter">Please read our <a href="#">GDPR notice</a> before submitting. *</label>
