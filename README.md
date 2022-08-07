@@ -231,9 +231,11 @@ Responsive design is important, CSS code had to be amended and adjusted to make 
 Using tools such as W3C validator, Jigsaw and Lighthouse gives visibility of any code, scripts or elements that are causing any errors. The results for the site are as follows:
 
 **HTML**
+
 - <insert report number> errors were returned when passing through the official [W3C validator](<insert link to report>)
 
 **CSS**
+
 - <insert report number> errors were found when passing through the official [(Jigsaw) validator](<insert link to report>)
 
 **Performance**
@@ -257,7 +259,7 @@ Errors / bug fixes:
 
 ### 4.4 Unfixed Bugs
 
-- <list unfixed bugs here>
+- Footer not aligned to bottom of page
 
 ## 5. Deployment
 
