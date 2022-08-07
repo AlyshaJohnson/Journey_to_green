@@ -228,22 +228,18 @@ Responsive design is important, CSS code had to be amended and adjusted to make 
 
 ### 4.2 Validator Testing
 
-Using tools such as W3C validator, Jigsaw and Lighthouse gives visibility of any code, scripts or elements that are causing any errors. The results for the site are as follows:
+Using tools such as W3C validator and Lighthouse gives visibility of any code, scripts or elements that are causing any errors. The results for the site are as follows:
 
-**HTML**
+**HTML and CSS**
 
-- <insert report number> errors were returned when passing through the official [W3C validator](<insert link to report>)
-
-**CSS**
-
-- <insert report number> errors were found when passing through the official [(Jigsaw) validator](<insert link to report>)
+- 1 error and 2 warnings were returned when passing through the official W3C Validator originally, however these were fixed and the code updated. [W3C validator](<insert link to report>)
 
 **Performance**
 
 - Results can be seen through the official [Lighthouse](<insert link to report>) report.
 
 As part of the performance test through Lighthouse, some changes were made:
-- Accessibility (aria-label) tags were implemented on all buttons to improve the score from 82 to 100.
+- Accessibility (aria-label) tags were implemented on all buttons to improve the score from 87 to 100.
 - The cache policy was amended to increase the length of number of seconds the browser should cache the resource.
 - The image file sizes needed to be compressed so reduce the impact on performance. This was successfully done using [tinyPNG](https://tinypng.com/).
 
@@ -252,13 +248,13 @@ As part of the performance test through Lighthouse, some changes were made:
 This app has been tested by a small group of 5 users in which some feedback was captured in the design and some errors in functionality and spelling were corrected.
 
 UI improvements made:
-- <list any improvements to UI that were made here>
-
-Errors / bug fixes:
-- <list errors/bugs that were found, what the problem was and how they were fixed>
+- Make form input field stand out by adding a border.
+- Responsive design elements overlapped on mobile device.
+- Automatically remove text in query input field.
 
 ### 4.4 Unfixed Bugs
 
+Here details the bugs that could not be fixed:
 - Footer not aligned to bottom of page
 
 ## 5. Deployment
@@ -304,15 +300,11 @@ Logos and Fonts:
 
 Tutorials and support:
 - General guidance, information and limitations on elements, attributes, and methods from [w3schools](https://www.w3schools.com/default.asp) and [MDN Web Docs](https://developer.mozilla.org/en-US/)
-- <insert list of tutorials followed>
 - The many people who 'beta tested' the quiz app.
 
 ### 6.2 Media
 
-Any photos used throughout the app are stock imagery from the following services:
-- [unsplash](https://unsplash.com/)
-- [FreeImages](https://www.freeimages.com/)
-- [PikWizard](https://pikwizard.com/)
+Any photos used throughout the website, have been taken by the developer.
 
 ### 6.3 Research
 
