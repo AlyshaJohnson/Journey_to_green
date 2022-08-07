@@ -228,35 +228,42 @@ table > th {
 }
 
 #query-form p {
-    font-size: 150%;
+    font-size: 1.5em;
     padding-bottom: 20px;
 }
 
 #query-form label {
-    font-size: 110%;
+    font-size: 1.1em;
 }
 
 #query-form input {
     margin-right: 50px;
     margin-bottom: 20px;
+    border: 1px solid #13443e;
 }
 
 #query-form #query-form-name,
 #query-form #query-form-email {
     padding-right: 100px;
+    border: 1px solid #13443e;
 }
 
 #query-form textarea {
     font-family: 'Dosis', sans-serif;
     width: 95%;
+    border: 1px solid #13443e;
 }
 
 #query-form #query-submit {
     padding: 5px;
     margin-left: 45%;
-    border: 1px ridge #13443e;
-    border-radius: 5px;
-    background-color: #F4D1AF;
+    padding: 6px;
+    border: 2px outset #13443e;
+    border-radius: 10px;
+    font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 100%;
 }
 
 /* newsletter and contact us form submittals */
@@ -304,6 +311,11 @@ table > th {
     table td {
         font-size: 0.8em;
     }
+
+    /* contact us page */
+    #query-form {
+        margin: 0;
+    }
 }
 
 /* for medium screen sizes 550px wide and down */
@@ -339,5 +351,16 @@ table > th {
         width: 10em;
         float: none;
         margin: 10px auto;
+    }
+
+    /* contact us page */
+    #query-form label {
+        font-size: 1em;
+        line-height: 1.5
+    }
+
+    #query-form input {
+        margin-right: 5px;
+        margin-bottom: 5px
     }
 }
