@@ -32,7 +32,6 @@ section {
 }
 
 body > header , body > footer {
-    color: #20726B;
     background-color: #20726B;
 }
 
@@ -141,7 +140,6 @@ body > header , body > footer {
 #socials i {
     font-size: 160%;
     margin: 5%;
-    padding: -1%;
     color: #e4e4e0;
 }
 
