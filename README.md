@@ -90,7 +90,7 @@ When the structure of the webpage, information and features had been determined,
 - The website's primary colours are (from left to right) #20726B, #13443E, #E4E4E0, #F4D1AF and #E86E4C as seen in the picture above. They were derived using the online tool [colormind](http://colormind.io/), to make sure they complement and contrast. The colors are all nuances of green or orange, to mirror nature and enhance the connection with the being green.
 - #20726B is used for the background colour on the header and footer.
 - #13443E is used for headlines and text throughtout the website, unless a hyperlink, and as a border colour to emphasise buttons and input fields.
-- #E4E4E0 is used as the header footer text and icon colour to contrast with the background colour. It is also used as the main background colour for the webpage.
+- #E4E4E0 is used as the header footer text and icon colour to contrast with the background colour. It is also used as the main background colour for the webpage. This was decided from the wireframes that were produced - there was not enough contrast in the UI to draw the user's eye.
 - #F4D1AF is used as a contrasting background colour for any text boxes on the page, for example blog posts, contact us form, about the blog, etc.
 - #E86E4C is used minimally to highlight links in text. It is a brighter colour to contrast with the green.
 
@@ -138,17 +138,46 @@ The features deployed for this website are as follows:
 
 **Consistent Header**
 
+Throughout the site, the header remains consistent. It includes the website logo and name which is a clickable link to the homepage and a menu to help navigate through the site ('Home', 'Library' and 'Contact Us').
+
+![](./assets/images/readme/header.jpeg)
+
+To highlight where the user is on the site, the button is underlined on the page.
 
 **Newsletter Sign Up**
 
+Within the footer, there is a newsletter sign up form. This includes input fields for name and email, a tick box to accept the GDPR notice and the submit button. All of these fields are mandatory, and therefore need to be filled in order to be submitted.
 
-**Consistent Footer**
+![](./assets/images/readme/newsletter_form.jpeg)
 
+On submitting the form, a new page opens with a message detailing the next steps for the newsletter.
+
+![](./assets/images/readme/submit_page.jpeg)
+
+**Social Media**
+
+Within the footer, there are three links to social media sites (facebook, instagram and tiktok). Each link opens the page in a new tab.
+
+![](./assets/images/readme/social_media.jpeg)
 
 **Blog Library**
 
+The blog library opens up to show the consistent header and photo, but then contains the blog posts in the tawny orange color. The blog posts content contains a title, text and any media that will help the reader.
+
+![](./assets/images/readme/blog_library.jpeg)
+
+Between each blog post the leaf icon is used to separate the content.
+
+![](./assets/images/readme/blog_icon.jpeg)
+
 
 **Contact Us Form**
+
+The contact us form contains some text describing the purpose of the form, input fields for name, email, type of query and a text box for the query. Theses fields are mandatory in order to submit the form. 
+
+There are two tick boxes, one submitting their details for the newsletter and one to accept the GDPR notice. The second tick box is mandatory to submit the form.
+
+![](./assets/images/readme/contact_us.jpeg)
 
 
 ### 3.2 Future Features
@@ -167,7 +196,15 @@ As the project was developed and coded, developer testing was conducted to reduc
 
 **General Debugging**
 
-**Input Validator Testing**
+The scenarios for done for testing 
+1. Input into newsletter form
+    - Blank form
+    - Wrong input into email field
+    - Unticked box for GDPR 
+2. Input into contact us form
+    - Blank form
+    - Wrong input into email field
+    - Unticked box for GDPR
 
 **Browser / Device testing**
 
