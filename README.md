@@ -196,27 +196,33 @@ As the project was developed and coded, developer testing was conducted to reduc
 
 **General Debugging**
 
-The scenarios for done for testing 
-1. Input into newsletter form
+The scenarios developed for testing the website are as follows:
+1. Homepage, Library and Contact Us page load
+2. Homepage, Library and Contact Us buttons in navigation bar work on each page.
+3. Social media links work and open in a seperate tab on each page.
+4. Input into newsletter form
     - Blank form
     - Wrong input into email field
     - Unticked box for GDPR 
-2. Input into contact us form
+5. Submission page once newsletter has been submitted loads
+6. Input into contact us form
     - Blank form
     - Wrong input into email field
     - Unticked box for GDPR
+7. Submission page once contact us form has been submitted loads
 
 **Browser / Device testing**
 
 The development of this app was conducted on Google Chrome, therefore extensive testing was conducted on this browser. This was used as a benchmark against Firefox and Safari.
 
 The elements of testing conducted on each browser are:
-<insert list of testing performed and why - see example below>
-- User Experience - what does the quiz look like; is the flow through the quiz the same; are all elements where they are expected?
-- Functionality - do the buttons work as expected; does the question counter count?
+- User Experience - what does the site look like; is the flow through the site consitent; are all elements where they are expected?
+- Functionality - see above.
 - Performance - how responsive is the site?
 
-The user experience is consistent on Chrome, Firefox and Safari. The instruction videos in Safari do not load - this bug has been captured.
+The user experience is consistent on Chrome, Firefox and Safari.
+
+All the scenarios captured in the 'General Debugging' section above were performed on each browser to make sure the functionality of the site was consistent.
 
 Responsive design is important, CSS code had to be amended and adjusted to make sure the app could work on a number of devices. There were a number of user experience bugs that were produced when testing. These have now been fixed in the code.
 
@@ -231,6 +237,7 @@ Using tools such as W3C validator, Jigsaw and Lighthouse gives visibility of any
 - <insert report number> errors were found when passing through the official [(Jigsaw) validator](<insert link to report>)
 
 **Performance**
+
 - Results can be seen through the official [Lighthouse](<insert link to report>) report.
 
 As part of the performance test through Lighthouse, some changes were made:
@@ -239,6 +246,7 @@ As part of the performance test through Lighthouse, some changes were made:
 - The image file sizes needed to be compressed so reduce the impact on performance. This was successfully done using [tinyPNG](https://tinypng.com/).
 
 ### 4.3 User Testing
+
 This app has been tested by a small group of 5 users in which some feedback was captured in the design and some errors in functionality and spelling were corrected.
 
 UI improvements made:
@@ -303,8 +311,6 @@ Any photos used throughout the app are stock imagery from the following services
 - [unsplash](https://unsplash.com/)
 - [FreeImages](https://www.freeimages.com/)
 - [PikWizard](https://pikwizard.com/)
-
-<insert any other media used throughout the app/site here>
 
 ### 6.3 Research
 
