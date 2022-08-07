@@ -232,15 +232,15 @@ Using tools such as W3C validator and Lighthouse gives visibility of any code, s
 
 **HTML and CSS**
 
-- 1 error and 2 warnings were returned when passing through the official W3C Validator originally, however these were fixed and the code updated. [W3C validator](<insert link to report>)
+- 1 error and 2 warnings were returned when passing through the official W3C Validator originally, however these were fixed and the code updated. [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Falyshajohnson.github.io%2FJourney_to_green%2Findex.html)
 
 **Performance**
 
-- Results can be seen through the official [Lighthouse](<insert link to report>) report.
+- Results can be seen through the official [Lighthouse](https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Falyshajohnson.github.io%2FJourney_to_green%2Findex.html&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa&utm_source=lh-chrome-ext) report.
 
 As part of the performance test through Lighthouse, some changes were made:
-- Accessibility (aria-label) tags were implemented on all buttons to improve the score from 87 to 100.
-- The cache policy was amended to increase the length of number of seconds the browser should cache the resource.
+- Accessibility (aria-label) tags were implemented on all buttons to improve the score from 87 to 97.
+- The cache policy was amended to increase the length of number of seconds the browser should cache the resource, this increased the score from 74 to 80.
 - The image file sizes needed to be compressed so reduce the impact on performance. This was successfully done using [tinyPNG](https://tinypng.com/).
 
 ### 4.3 User Testing
@@ -300,7 +300,7 @@ Logos and Fonts:
 
 Tutorials and support:
 - General guidance, information and limitations on elements, attributes, and methods from [w3schools](https://www.w3schools.com/default.asp) and [MDN Web Docs](https://developer.mozilla.org/en-US/)
-- The many people who 'beta tested' the quiz app.
+- The many people who 'beta tested' the site.
 
 ### 6.2 Media
 
@@ -309,6 +309,7 @@ Any photos used throughout the website, have been taken by the developer.
 ### 6.3 Research
 
 As mentioned in the design section, competitor research was conducted. These are credited below:
-- <insert list of research links>
+- [Wix.com](wix.com)
 
 ### 6.4 Special Thanks
+A special thanks to Akshat Garg who helped with the development of the site by checking code, testing and suggesting new methods to try.
